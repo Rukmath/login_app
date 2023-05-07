@@ -1,0 +1,33 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.button {
+  height: 35px;
+  width: 80px;
+  color: #303150;
+  border-width: 0px;
+  border-radius: 8px;
+}
